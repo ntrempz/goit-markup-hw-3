@@ -9,10 +9,11 @@
   --ocean: rgba(64, 75, 191, 1);
 }
 
-body {
+.container {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--navy-blue);
   width: 1440px;
+  margin: 0 auto;
 }
 
 /* Header Styles */
