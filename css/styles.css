@@ -213,8 +213,9 @@ p,
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
-  width: 264px;
+  /* width: 264px; */
 }
+
 .feature-body {
   /* Header 3 */
   color: var(--slate, #434455);
@@ -226,6 +227,7 @@ p,
   letter-spacing: 0.32px;
   width: 264px;
 }
+
 /* section 2 */
 .second-section {
   width: 1128px;
@@ -238,13 +240,13 @@ h2 {
   color: var(--navy-blue, #2e2f42);
   text-align: center;
   /* Header 2 */
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin: 0 0 72px;
 }
 
 .service {
@@ -256,7 +258,7 @@ h2 {
   margin: 0;
 }
 .service li img {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border: 1px solid var(--cornflower, #e7e9fc);
   /* background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat; */
 }
 
@@ -268,14 +270,7 @@ h2 {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: center; /* Vertically center items */
-  align-items: center; /* Horizontally center items */
-  /* flex-shrink: 0; */
   /* style */
-  /* background-color: var(--navy-blue);
-  padding-top: 188px;
-  padding-bottom: 188px; */
-  text-align: center;
-  width: 1440px;
   height: 732px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
@@ -339,5 +334,59 @@ h2 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin: 0;
+  padding: 0;
+}
+
+/* footer */
+.footer-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+  /* style */
+  background-color: var(--navy-blue);
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  /* Body */
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+
+.footer-logo {
+  color: var(--cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.footer-logo:focus,
+.footer-logo:active,
+.footer-logo:hover {
+  color: var(--iris);
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0;
+}
+.footer-textbox {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 112px;
+  gap: 16px;
+  margin: 100px 1020px 100px 156px;
   padding: 0;
 }
